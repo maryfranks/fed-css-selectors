@@ -34,3 +34,24 @@ h1, h2 {
 #item2 p {
   text-align: right;
 }
+
+#advanced-selectors li p {
+  background-color: grey;
+  padding: 10px;
+}
+
+#advanced-selectors li:nth-child(odd) p {
+   background-color: green;
+ }
+
+#advanced-selectors li:nth-child(4) p a:hover {
+  text-decoration: none;
+}
+
+#advanced-selectors li:nth-child(5) a:hover {
+  background-color: yellow;
+}
+
+#advanced-selectors li:nth-child(5) a:active {
+  background-color: red;
+}
